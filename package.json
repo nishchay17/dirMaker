@@ -1,7 +1,7 @@
 {
-  "name": "cdf",
+  "name": "@nishchay17/cdf",
   "version": "1.0.0",
-  "description": "CLI for competitive programmer, makes folder with your template",
+  "description": "CLI for competitive programmer, make folder with your template",
   "main": "index.js",
   "bin": {
     "cdf": "bin/bash"
