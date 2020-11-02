@@ -1,0 +1,25 @@
+{
+  "name": "cdf",
+  "version": "1.0.0",
+  "description": "CLI for competitive programmer, makes folder with your template",
+  "main": "index.js",
+  "bin": {
+    "cdf": "bin/bash"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {},
+  "keywords": [
+    "cli",
+    "dir",
+    "competitive programming"
+  ],
+  "author": "nishchay17",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^6.2.0",
+    "node-persist": "^3.1.0"
+  }
+}
