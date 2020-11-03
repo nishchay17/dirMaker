@@ -23,6 +23,7 @@ exports.makeDir = async (rootDir, dirName, numberOfFile) => {
       else {
         fs.mkdirSync(dirName);
         let res = makeFiles(numberOfFile, rootDir, dirName);
+        process.chdir(`${rootDir}/${dirName}`);
         return res;
       }
     }

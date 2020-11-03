@@ -4,6 +4,7 @@ const { makeDir } = require("./src/maker");
 const { setTemplateDir } = require("./src/templateHelper");
 const colors = require("colors");
 const storage = require("node-persist");
+const { askToOpenVscode } = require("./src/ask");
 
 exports.mainCliProcess = async (args) => {
   program.parse(args);
@@ -61,6 +62,7 @@ exports.mainCliProcess = async (args) => {
       if (typeof res == "boolean") {
         if (!!res === true) {
           console.log(`${dirName} created at "${rootDir}"`.bgBrightGreen.black);
+          askToOpenVscode();
         } else {
           console.log(
             "error: There is some problem, please try again later.".bgRed
