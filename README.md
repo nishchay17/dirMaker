@@ -1,3 +1,5 @@
+### *Now you can open vscode directly from this
+
 ## What is this?
 CDF is faster way to make dir with template file, for competitive programmers, from CMD
 
@@ -33,3 +35,8 @@ If you are using other language than cpp, use the given command to change the de
 //java for java
 //c for c
 //cpp for c++
+```
+
+## Example video
+
+[![video](https://img.youtube.com/vi/0qWTSaXbRaU/0.jpg)](https://www.youtube.com/watch?v=0qWTSaXbRaU)
