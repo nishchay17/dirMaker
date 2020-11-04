@@ -13,14 +13,18 @@ exports.askToOpenVscode = () => {
     ])
     .then((answers) => {
       if (!!answers.vsCode) {
-        exec("code .", (error, stdout, stderr) => {
+        exec("code1 .", (error, stdout, stderr) => {
           if (error) {
-            return console.log("error: can't open vscode".red);
+            console.log(
+              "error: can't open vscode, make sure it's installed".red
+            );
           }
         });
       }
     })
     .catch((error) => {
-      return false;
+      console.log(
+        "error: There is some problem, please try again later.".bgRed
+      );
     });
 };
