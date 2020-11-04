@@ -1,6 +1,6 @@
 {
   "name": "@nishchay17/cdf",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "CLI for competitive programmer, make folder with your template",
   "main": "index.js",
   "bin": {
